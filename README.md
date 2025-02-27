@@ -40,8 +40,8 @@ Siga os passos abaixo para clonar o repositório, importar no VS Code usando a e
 1. **Clone o repositório para sua máquina local**  
    Abra o terminal e execute os comandos abaixo:
    ```bash
-   git clone https://github.com/alexsami-lopes/EmbarcaTech-Tarefa-Aula-Sincrona-10-02-2025.git
-   cd EmbarcaTech-Tarefa-Aula-Sincrona-10-02-2025
+   git clone https://github.com/alexsami-lopes/EmbarcaTech-Projeto-Final.git
+   cd EmbarcaTech-Projeto-Final
 
 2. **Abra o VS Code e instale a extensão "Raspberry Pi Pico Project" (caso não já a tenha instalada)**
  - No VS Code, vá até "Extensões" (Ctrl+Shift+X)
