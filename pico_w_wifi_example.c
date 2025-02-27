@@ -38,9 +38,6 @@
 #define WIFI_SSID_INITIAL "NomeDoWifi"  // Substitua pelo nome da sua rede Wi-Fi
 #define WIFI_PASS_INITIAL "SenhaDoWifi" // Substitua pela senha da sua rede Wi-Fi
 
-// #define WIFI_SSID_INITIAL "UShallNotPass"  // Substitua pelo nome da sua rede Wi-Fi
-// #define WIFI_PASS_INITIAL "DreamCatcher.753_" // Substitua pela senha da sua rede Wi-Fi
-
 // Definindo a senha armazenada (real: "admin") e "criptografia"
 // Função de criptografia simples incrementa cada caractere em 1.
 // Assim, "admin" torna-se "benjo"
