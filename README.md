@@ -3,7 +3,7 @@
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=FCE7C8&height=120&section=header"/>
 
-<h1 align="center">Embarcatec | Tarefa Aula Sincrona 10/02/2025</h1>
+<h1 align="center">Embarcatec | Projeto Final</h1>
 
 <div align="center">  
   <img width=40% src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=B1C29E&style=for-the-badge"/>
@@ -11,7 +11,7 @@
 
 ## Objetivo do Projeto
 
-Com o emprego do módulo PWM (Pulse Width Modulation) e do ADC (Analog to Digital Converter), presentes no microcontrolador RP2040 da Raspberry Pi Pico W, foi projetado um sistema com a ferramenta Pico SDK para, usando um joystick através do ADC, controlar a intensidade de um LED usando PWM e representar a posição do joystick no display SSD1306.
+Esse é um sistema, que usando a placa Bitdoglab ou o Raspberry PI Pico W, tranca e destranca uma porta para Airbnb ou similares, é possível controlar a porta tanto usando a placa quanto via Wi-Fi, com mudança de senha feita apenar por Wi-Fi. Um led foi usado para simbolizar a abertura da porta.
 
 
 ## 🗒️ Lista de requisitos
@@ -72,16 +72,18 @@ Siga os passos abaixo para clonar o repositório, importar no VS Code usando a e
 
 ## 🔧 Funcionalidades Implementadas:
 
-O joystick fornece valores analógicos correspondentes aos eixos X e Y, que são utilizados para controlar a intensidade luminosa dos LEDs RGB, onde:
-1. O LED Azul tem seu brilho ajustado conforme o valor do eixo Y. Quando o joystick está solto (posição central), o LED permanece apagado. À medida que o joystick for movido para cima (valores menores) ou para baixo (valores maiores), o LED aumenta seu brilho gradualmente, atingindo a intensidade máxima nos extremos (0 e 4095).
-2. O LED Vermelho segue o mesmo princípio, mas de acordo com o eixo X. Quando o joystick está solto (posição central), o LED está apagado. Movendo o joystick para a esquerda (valores menores) ou para a direita (valores maiores), o LED aumenta de brilho, sendo mais intenso nos extremos (0 e 4095).
-3. Os LEDs são controlados via PWM para permitir variação suave da intensidade luminosa.
-É exibido no display SSD1306 um quadrado de 8x8 pixels, inicialmente centralizado, que se move proporcionalmente aos valores capturados pelo joystick.
-Adicionalmente, o botão do joystick tem as seguintes funcionalidades:
-4. Alterna o estado do LED Verde a cada acionamento.
-5. Modifica a borda do display para indicar quando foi pressionado, alternando entre diferentes estilos de borda a cada novo acionamento.
-Finalmente, o botão A tem a seguinte funcionalidade:
-   - Ativar ou desativar os LED PWM a cada acionamento.
+O joystick fornece valores analógicos correspondentes aos eixos X e Y, que são utilizados para controlar os menus onde é possível:
+1. Abrir a porta (ligar o led).
+2. Fechar a porta (desligar o led).
+3. Conectar ao WiFi.
+4. Ver o IP do host.
+
+Via host acessando o IP dado ao conectar:
+1. Fazer Login.
+2. Mudar senhas.
+3. Abrir a porta (ligar o led).
+4. Fechar a porta (desligar o led).
+5. Desbloquear o dispositivo após 5 tentativas de senhas erradas (basta clicar em Abrir Porta).
 
 ## 💻 Desenvolvedor
  
@@ -94,18 +96,6 @@ Finalmente, o botão A tem a seguinte funcionalidade:
 </table>
 
 
-## 🎥 Demonstração no Wokwi: 
-
-<div align="center">
-  <figure>  
-    <img src="images/Demo_Wokwi.gif" width="500px">
-    
-<figcaption>
-
-**Figura 1** - Demo **(acelerada)** do Projeto no Wokwi.com - Acessível em: https://wokwi.com/projects/423200576915385345
-    </figcaption>
-  </figure>
-</div>
 
 
 ## 🎥 Demonstração na Placa (Video): 
