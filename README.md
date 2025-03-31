@@ -101,7 +101,7 @@ Via host acessando o IP dado ao conectar:
 ## 🎥 Demonstração na Placa (Video): 
 
 <div align="center">
-  <a href="https://youtu.be/MkjJTz6ifls" target="_blank">
+  <a href="https://youtu.be/MJKoZzyWy5I" target="_blank">
     <img src="images/Demo_Placa_Video.png" width="500px">
   </a>
 </div>
