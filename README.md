@@ -11,7 +11,7 @@
 
 ## Objetivo do Projeto
 
-Esse é um sistema, que usando a placa Bitdoglab ou o Raspberry PI Pico W, tranca e destranca uma porta para Airbnb ou similares, é possível controlar a porta tanto usando a placa quanto via Wi-Fi, com mudança de senha feita apenar por Wi-Fi. Um led foi usado para simbolizar a abertura da porta.
+Esse é um sistema, que usando a placa Bitdoglab ou o Raspberry PI Pico W, tranca e destranca uma porta para Airbnb ou similares, é possível controlar a porta tanto usando a placa quanto via Wi-Fi, com mudança de senha feita apenas por Wi-Fi. Um led foi usado para simbolizar a abertura da porta.
 
 
 ## 🗒️ Lista de requisitos
